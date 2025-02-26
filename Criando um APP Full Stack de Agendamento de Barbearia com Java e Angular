@@ -1,0 +1,177 @@
+Criando um APP Full Stack de Agendamento de Barbearia com Java e Angular
+Criar um aplicativo full stack de agendamento para uma barbearia usando Java para o back-end e Angular para o front-end é um projeto interessante e abrangente. Vou te dar um guia básico sobre como estruturar esse projeto.
+
+Estrutura do Projeto
+Backend (Java com Spring Boot)
+
+Configuração do projeto.
+
+Criação das entidades (Cliente, Agendamento, etc).
+
+Implementação dos repositórios.
+
+Criação dos serviços.
+
+Implementação dos controladores.
+
+Configuração do banco de dados.
+
+Frontend (Angular)
+
+Configuração do projeto.
+
+Criação dos componentes (agendamento, cliente, etc).
+
+Serviços para comunicação com a API.
+
+Rotas e navegação.
+
+Implementação de formulários e validações.
+
+Passo a Passo Detalhado
+1. Configuração do Backend
+a. Configuração do projeto com Spring Boot:
+
+Utilize o Spring Initializr para criar o projeto com as dependências Spring Web, Spring Data JPA e H2 Database.
+
+b. Criação das entidades:
+
+java
+@Entity
+public class Cliente {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String nome;
+    private String telefone;
+
+    // Getters e Setters
+}
+
+@Entity
+public class Agendamento {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private LocalDateTime dataHora;
+    
+    @ManyToOne
+    private Cliente cliente;
+
+    // Getters e Setters
+}
+c. Repositórios:
+
+java
+public interface ClienteRepository extends JpaRepository<Cliente, Long> {
+}
+
+public interface AgendamentoRepository extends JpaRepository<Agendamento, Long> {
+}
+d. Serviços:
+
+java
+@Service
+public class ClienteService {
+    @Autowired
+    private ClienteRepository clienteRepository;
+
+    public Cliente salvar(Cliente cliente) {
+        return clienteRepository.save(cliente);
+    }
+
+    public List<Cliente> listar() {
+        return clienteRepository.findAll();
+    }
+}
+
+// Similar para AgendamentoService
+e. Controladores:
+
+java
+@RestController
+@RequestMapping("/clientes")
+public class ClienteController {
+    @Autowired
+    private ClienteService clienteService;
+
+    @PostMapping
+    public Cliente criarCliente(@RequestBody Cliente cliente) {
+        return clienteService.salvar(cliente);
+    }
+
+    @GetMapping
+    public List<Cliente> listarClientes() {
+        return clienteService.listar();
+    }
+}
+
+// Similar para AgendamentoController
+f. Configuração do banco de dados:
+
+No application.properties:
+
+properties
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=password
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+2. Configuração do Frontend
+a. Configuração do projeto Angular:
+
+Crie um novo projeto Angular com o Angular CLI:
+
+bash
+ng new barbearia-app
+cd barbearia-app
+b. Criação dos componentes:
+
+bash
+ng generate component cliente
+ng generate component agendamento
+c. Serviços para comunicação com a API:
+
+bash
+ng generate service cliente
+ng generate service agendamento
+d. Exemplos de Serviços:
+
+typescript
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Cliente } from './cliente';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class ClienteService {
+  private apiUrl = 'http://localhost:8080/clientes';
+
+  constructor(private http: HttpClient) {}
+
+  listar(): Observable<Cliente[]> {
+    return this.http.get<Cliente[]>(this.apiUrl);
+  }
+
+  criar(cliente: Cliente): Observable<Cliente> {
+    return this.http.post<Cliente>(this.apiUrl, cliente);
+  }
+}
+e. Rotas e navegação:
+
+No app-routing.module.ts:
+
+typescript
+const routes: Routes = [
+  { path: 'clientes', component: ClienteComponent },
+  { path: 'agendamentos', component: AgendamentoComponent },
+  { path: '', redirectTo: '/clientes', pathMatch: 'full' }
+];
+f. Implementação de formulários e validações:
+
+Utilizar ReactiveFormsModule para formulários reativos.
+
+Conclusão
+Este é um guia básico para te ajudar a começar com o desenvolvimento de um aplicativo full stack de agendamento de barbearia com Java e Angular. Claro, você pode expandir e ajustar conforme suas necessidades.
