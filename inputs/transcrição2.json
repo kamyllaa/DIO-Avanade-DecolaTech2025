@@ -1,0 +1,407 @@
+[
+    {
+        "Id": "0532e983d11f43488dddb0cc2e704386",
+        "RecognitionStatus": 0,
+        "Offset": 2700000,
+        "Duration": 45600000,
+        "Channel": 0,
+        "DisplayText": "Pronto, nasci pronto, preciso apenas de dar localização em 10 minutos que eu chego.",
+        "NBest": [
+            {
+                "Confidence": 0.78255266,
+                "Lexical": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "ITN": "pronto nasci pronto preciso apenas de dar localização em 10 minutos que eu chego",
+                "MaskedITN": "pronto nasci pronto preciso apenas de dar localização em 10 minutos que eu chego",
+                "Display": "Pronto, nasci pronto, preciso apenas de dar localização em 10 minutos que eu chego.",
+                "Words": [
+                    {
+                        "Word": "pronto",
+                        "Offset": 2700000,
+                        "Duration": 5600000
+                    },
+                    {
+                        "Word": "nasci",
+                        "Offset": 8300000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "pronto",
+                        "Offset": 11500000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "preciso",
+                        "Offset": 14300000,
+                        "Duration": 4400000
+                    },
+                    {
+                        "Word": "apenas",
+                        "Offset": 20700000,
+                        "Duration": 6400000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 27100000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "dar",
+                        "Offset": 28300000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "localização",
+                        "Offset": 29500000,
+                        "Duration": 7200000
+                    },
+                    {
+                        "Word": "em",
+                        "Offset": 36700000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "dez",
+                        "Offset": 37500000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "minutos",
+                        "Offset": 40300000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "que",
+                        "Offset": 43500000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "eu",
+                        "Offset": 44300000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "chego",
+                        "Offset": 45100000,
+                        "Duration": 3200000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.78255266,
+                "Lexical": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "ITN": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "MaskedITN": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "Display": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "Words": [
+                    {
+                        "Word": "pronto",
+                        "Offset": 2700000,
+                        "Duration": 5600000
+                    },
+                    {
+                        "Word": "nasci",
+                        "Offset": 8300000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "pronto",
+                        "Offset": 11500000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "preciso",
+                        "Offset": 14300000,
+                        "Duration": 4400000
+                    },
+                    {
+                        "Word": "apenas",
+                        "Offset": 20700000,
+                        "Duration": 6400000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 27100000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "dar",
+                        "Offset": 28300000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "localização",
+                        "Offset": 29500000,
+                        "Duration": 7200000
+                    },
+                    {
+                        "Word": "em",
+                        "Offset": 36700000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "dez",
+                        "Offset": 37500000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "minutos",
+                        "Offset": 40300000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "que",
+                        "Offset": 43500000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "eu",
+                        "Offset": 44300000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "chego",
+                        "Offset": 45100000,
+                        "Duration": 3200000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.78255266,
+                "Lexical": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "ITN": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "MaskedITN": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "Display": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "Words": [
+                    {
+                        "Word": "pronto",
+                        "Offset": 2700000,
+                        "Duration": 5600000
+                    },
+                    {
+                        "Word": "nasci",
+                        "Offset": 8300000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "pronto",
+                        "Offset": 11500000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "preciso",
+                        "Offset": 14300000,
+                        "Duration": 4400000
+                    },
+                    {
+                        "Word": "apenas",
+                        "Offset": 20700000,
+                        "Duration": 6400000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 27100000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "dar",
+                        "Offset": 28300000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "localização",
+                        "Offset": 29500000,
+                        "Duration": 7200000
+                    },
+                    {
+                        "Word": "em",
+                        "Offset": 36700000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "dez",
+                        "Offset": 37500000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "minutos",
+                        "Offset": 40300000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "que",
+                        "Offset": 43500000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "eu",
+                        "Offset": 44300000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "chego",
+                        "Offset": 45100000,
+                        "Duration": 3200000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.78255266,
+                "Lexical": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "ITN": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "MaskedITN": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "Display": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "Words": [
+                    {
+                        "Word": "pronto",
+                        "Offset": 2700000,
+                        "Duration": 5600000
+                    },
+                    {
+                        "Word": "nasci",
+                        "Offset": 8300000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "pronto",
+                        "Offset": 11500000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "preciso",
+                        "Offset": 14300000,
+                        "Duration": 4400000
+                    },
+                    {
+                        "Word": "apenas",
+                        "Offset": 20700000,
+                        "Duration": 6400000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 27100000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "dar",
+                        "Offset": 28300000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "localização",
+                        "Offset": 29500000,
+                        "Duration": 7200000
+                    },
+                    {
+                        "Word": "em",
+                        "Offset": 36700000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "dez",
+                        "Offset": 37500000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "minutos",
+                        "Offset": 40300000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "que",
+                        "Offset": 43500000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "eu",
+                        "Offset": 44300000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "chego",
+                        "Offset": 45100000,
+                        "Duration": 3200000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.78255266,
+                "Lexical": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "ITN": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "MaskedITN": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "Display": "pronto nasci pronto preciso apenas de dar localização em dez minutos que eu chego",
+                "Words": [
+                    {
+                        "Word": "pronto",
+                        "Offset": 2700000,
+                        "Duration": 5600000
+                    },
+                    {
+                        "Word": "nasci",
+                        "Offset": 8300000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "pronto",
+                        "Offset": 11500000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "preciso",
+                        "Offset": 14300000,
+                        "Duration": 4400000
+                    },
+                    {
+                        "Word": "apenas",
+                        "Offset": 20700000,
+                        "Duration": 6400000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 27100000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "dar",
+                        "Offset": 28300000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "localização",
+                        "Offset": 29500000,
+                        "Duration": 7200000
+                    },
+                    {
+                        "Word": "em",
+                        "Offset": 36700000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "dez",
+                        "Offset": 37500000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "minutos",
+                        "Offset": 40300000,
+                        "Duration": 3200000
+                    },
+                    {
+                        "Word": "que",
+                        "Offset": 43500000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "eu",
+                        "Offset": 44300000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "chego",
+                        "Offset": 45100000,
+                        "Duration": 3200000
+                    }
+                ]
+            }
+        ]
+    }
+]
